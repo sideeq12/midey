@@ -26,7 +26,7 @@ const Testimonials = () => {
   ]
 
   return (
-    <section className="py-20 bg-[#0A0A0F] text-white">
+    <section className="py-20 bg-[#0A0A0F] text-white text-left">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-bold mb-12">
           Words from My Clients

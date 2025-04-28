@@ -6,13 +6,23 @@ const Experience = () => {
       company: "PMCRG (Pervasive Mobile Computing Laboratory)",
       role: "Frontend Engineer",
       technologies: ["React.js", "TailwindCSS", "Firebase", "Chart.js"],
-      period: "June 2024 - Present"
+      period: "June 2024 - Present",
+       description: [
+        "Worked closely with teams to create a scalable hostel management system, utilizing a JavaScript MVC framework and React.js.",
+        "Built an inter-university file-sharing platform with role-based access control, supporting file upload, download, view-only permissions, and admin-level management",
+        "Integrated dynamic data fetching from APIs and implemented Firebase for secure PDF storage and retrieval",
+        "Building a VR simulation tool for brain surgery training, leveraging Three.js and WebXR, aimed at improving medical student education through immersive learning"
+      ]
     },
     {
       company: "VenWorld Global",
       role: "Fullstack Developer",
       technologies: ["Next.js", "Three.js", "RESTful API", "Node.js"],
-      period: "Feb 2023 - Aug 2024"
+      period: "Feb 2023 - Aug 2024",
+      description: [
+       "Built responsive, accessible UIs using React.js, TypeScript, and TailwindCSS, ensuring high usability across devices.",
+       "I oversee the recent virtual cohort program for frontend candidates, including project assignments and the grading system"
+      ]
     },
     {
       company: "OAU ICT, Ile-Ife, Nigeria (SIWES)",
@@ -21,8 +31,7 @@ const Experience = () => {
       period: "SIWES Internship",
       description: [
         "Worked closely with teams to create a scalable hostel management system, utilizing a JavaScript MVC framework and React.js.",
-        "Collaborated with cross-functional teams to design and implement a dynamic dashboard, catering to specific user needs and preferences.",
-        "Worked together with the design team to revamp the user interface for improved usability."
+  
       ]
     }
   ]
@@ -31,7 +40,7 @@ const Experience = () => {
     <section id="experience" className="py-12 sm:py-16 md:py-20 bg-[#0A0A0F] text-white">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
         {/* Header */}
-        <div className="text-center md:text-left mb-12 md:mb-16">
+        <div className="text-center md:text-left mb-12 px-6 md:px-14 md:mb-16">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 tracking-tight">
             Work Experience
           </h2>
@@ -39,7 +48,7 @@ const Experience = () => {
         </div>
 
         {/* Timeline */}
-        <div className="relative p-6 md:p-12">
+        <div className="relative p-6 md:p-12 md:w-3/4">
           {experiences.map((exp, index) => (
             <div key={index} className="relative pl-8 pb-12 last:pb-0">
               {/* Timeline Line */}

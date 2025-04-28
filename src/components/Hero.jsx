@@ -35,10 +35,13 @@ const Hero = () => {
           </div>
 
           {/* Content */}
-          <div className="flex-1">
-            <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-              Webflow Developer with Background in Coding
+          <div className="flex-1 text-left px-2 md:px-0">
+            <h1 className="text-5xl md:text-5xl font-bold mb-6 leading-tight">
+            Frontend Developer Bridging Design and Code
             </h1>
+            <p>Hi there, I'm <b className='text-green-700'>Sideeq</b> by name,  a seasoned Frontend Developer with a strong
+               coding foundation. I build scalable, accessible, and visually dynamic web experiences using React, Next.js, and Three.js. Passionate 
+              about creating interfaces that don't just look good, but work flawlessly</p>
             <div className="flex gap-4 mt-8">
               {/* Tech stack icons */}
               <img src="/react.svg" alt="React" className="w-8 h-8" />

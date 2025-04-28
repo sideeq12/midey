@@ -31,8 +31,7 @@ const SideMenu = () => {
             Contact
           </a>
         </li>
-        <li>
-          {/* Toggle Switch */}
+        {/* <li>
           <button
             aria-label="Toggle dark mode"
             onClick={() => setDarkMode((prev) => !prev)}
@@ -42,7 +41,7 @@ const SideMenu = () => {
               className={`w-5 h-5 rounded-full shadow-md transform transition-transform duration-300 ${darkMode ? 'bg-blue-500 translate-x-6' : 'bg-yellow-400 translate-x-0'}`}
             />
           </button>
-        </li>
+        </li> */}
       </ul>
     </nav>
   )
