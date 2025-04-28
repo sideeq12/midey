@@ -24,6 +24,15 @@
     animation: stripes 8s linear infinite;
     animation-delay: 4s;
   }
+
+  .animate-bounce-subtle {
+    animation: bounce-subtle 3s ease-in-out infinite;
+  }
+
+  .animate-bounce-subtle-delay {
+    animation: bounce-subtle 3s ease-in-out infinite;
+    animation-delay: 1.5s;
+  }
 }
 
 @keyframes float {
@@ -50,6 +59,15 @@
   }
   100% {
     background-position: 100% 100%;
+  }
+}
+
+@keyframes bounce-subtle {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
   }
 }
 
