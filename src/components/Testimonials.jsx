@@ -32,7 +32,7 @@ const Testimonials = () => {
           Words from My Clients
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 p-6 md:p-12">
           {testimonials.map((testimonial, index) => (
             <div 
               key={index}

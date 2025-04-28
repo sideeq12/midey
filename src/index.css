@@ -15,6 +15,15 @@
   .animate-scroll {
     animation: scroll 2s ease-in-out infinite;
   }
+
+  .animate-stripes {
+    animation: stripes 8s linear infinite;
+  }
+
+  .animate-stripes-delay {
+    animation: stripes 8s linear infinite;
+    animation-delay: 4s;
+  }
 }
 
 @keyframes float {
@@ -32,6 +41,15 @@
   }
   50% {
     transform: translateY(6px);
+  }
+}
+
+@keyframes stripes {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 100% 100%;
   }
 }
 
