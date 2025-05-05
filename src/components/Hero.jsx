@@ -37,7 +37,7 @@ const Hero = () => {
           {/* Content */}
           <div className="flex-1 text-left px-2 md:px-0">
             <h1 className="text-3xl md:text-5xl font-bold mb-6 leading-tight animate-bounce-subtle">
-              Frontend Developer Bridging Design and Code
+              Software Developer Bridging Design and Code 
             </h1>
             <p className="">Hi there, I'm <b className='text-green-700'>Sideeq</b> by name,  a seasoned Frontend Developer with a strong
               coding foundation. I build scalable, accessible, and visually dynamic web experiences using React, Next.js, and Three.js. Passionate 
