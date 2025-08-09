@@ -41,7 +41,7 @@ const Hero = () => {
             </h1>
             <p className="">Hi there, I'm <b className='text-green-700'>Sideeq</b> by name,  a seasoned Frontend Developer with a strong
               coding foundation. I build scalable, accessible, and visually dynamic web experiences using React, Next.js, and Three.js. Passionate 
-              about creating interfaces that don't just look good, but work flawlessly</p>
+              about creating interfaces that don't just look good, but work flawlessly.</p>
             <div className="flex gap-4 mt-8">
               {/* Tech stack icons */}
               <img src="/react.svg" alt="React" className="w-8 h-8 animate-bounce-subtle" />

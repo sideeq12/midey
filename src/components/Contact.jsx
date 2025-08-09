@@ -107,7 +107,7 @@ const Contact = () => {
                 disabled={state.submitting}
                 className="w-full bg-gradient-to-r from-blue-500 to-purple-600 text-white font-semibold py-4 rounded-lg hover:opacity-90 transition-opacity disabled:opacity-50 disabled:cursor-not-allowed"
               >
-                {state.submitting ? 'Sending...' : 'Send Message'}
+                {state.submitting ? 'Sending please wait...' : 'Send Message'}
               </button>
             </form>
           </div>
